@@ -1,0 +1,17 @@
+---
+title: "Hello SALT"
+output: html_document
+date: "2023-10-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hello from SALT.  
+
+This report was rendered on `r Sys.time()`.
+
+```{r}
+sessionInfo()
+```
